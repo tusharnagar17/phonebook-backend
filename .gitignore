@@ -1,0 +1,9 @@
+# directory
+node_modules/
+
+
+# files
+
+# readme for now
+README.md 
+.env
