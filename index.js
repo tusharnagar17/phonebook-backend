@@ -39,6 +39,7 @@ app.use(express.json());
 // app.use(requestLogger);
 app.use(morganMiddle);
 app.use(cors());
+app.use(express.static("dist"));
 
 // routes
 const apiPerson = require("./route/api/person");
